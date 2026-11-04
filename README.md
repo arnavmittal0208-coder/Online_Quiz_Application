@@ -37,15 +37,25 @@ JavaQuizApp/
 ## Prerequisites
 
 1. JDK 11 or newer
-2. Apache Maven
-3. Apache Tomcat 10.1 or newer
+2. Apache Tomcat 10.1 or newer
+3. Apache Maven (only required when rebuilding from source)
 
-Confirm Java and Maven are available:
+Confirm Java is available:
 
 ```cmd
 java -version
-mvn -version
 ```
+
+## Quick Start
+
+The repository includes a ready-to-deploy `JavaQuizApp.war` file, so Maven is not required for normal use.
+
+1. Install Apache Tomcat 10.1 or newer.
+2. Copy `JavaQuizApp.war` into Tomcat's `webapps` folder.
+3. Start Tomcat with `bin\startup.bat`.
+4. Open `http://localhost:8080/JavaQuizApp/`.
+
+On Windows, you can also place Tomcat under the repository's `tomcat` folder and run `start.bat`.
 
 ## Build
 
@@ -56,7 +66,7 @@ cd JavaQuizApp
 mvn clean package
 ```
 
-The deployable file is created at `JavaQuizApp\target\JavaQuizApp.war`.
+The deployable file is created at `JavaQuizApp\target\JavaQuizApp.war`. Copy it to the repository root if you want to use `start.bat`.
 
 Windows convenience scripts are also available:
 
@@ -67,7 +77,7 @@ build.bat
 
 ## Run Locally
 
-Copy the generated WAR to Tomcat's `webapps` directory, start Tomcat, and open:
+Copy `JavaQuizApp.war` to Tomcat's `webapps` directory, start Tomcat, and open:
 
 ```text
 http://localhost:8080/JavaQuizApp/

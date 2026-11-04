@@ -1,7 +1,8 @@
 # Build output and packaged artifacts
 target/
+!JavaQuizApp.war
 *.class
-*.war
+JavaQuizApp/target/*.war
 *.jar
 
 # Local application servers and runtime data
@@ -34,4 +35,3 @@ Thumbs.db
 # Maven and tool caches
 .mvn/timing.properties
 dependency-reduced-pom.xml
-
