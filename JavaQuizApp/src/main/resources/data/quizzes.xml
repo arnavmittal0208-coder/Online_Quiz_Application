@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quizzes>
+    <quiz>
+        <id>1</id>
+        <title>Java Basics</title>
+        <description>Test your fundamental Java knowledge including OOP concepts, data types, and control flow.</description>
+        <category>Programming</category>
+        <totalTimeLimit>600</totalTimeLimit>
+        <timePerQuestion>60</timePerQuestion>
+        <published>true</published>
+        <createdBy>admin</createdBy>
+        <createdAt>2026-10-01</createdAt>
+        <passingScore>60</passingScore>
+        <questions>
+            <question>
+                <id>1</id>
+                <text>What is the correct way to declare a variable in Java?</text>
+                <type>MCQ</type>
+                <marks>10</marks>
+                <timeLimit>60</timeLimit>
+                <options>
+                    <option id="a" correct="false">variable x = 5;</option>
+                    <option id="b" correct="true">int x = 5;</option>
+                    <option id="c" correct="false">x := 5;</option>
+                    <option id="d" correct="false">dim x = 5;</option>
+                </options>
+                <explanation>In Java, variables must be declared with their data type, e.g., int x = 5;</explanation>
+            </question>
+            <question>
+                <id>2</id>
+                <text>Which keyword is used to inherit a class in Java?</text>
+                <type>MCQ</type>
+                <marks>10</marks>
+                <timeLimit>60</timeLimit>
+                <options>
+                    <option id="a" correct="false">implements</option>
+                    <option id="b" correct="false">inherits</option>
+                    <option id="c" correct="true">extends</option>
+                    <option id="d" correct="false">super</option>
+                </options>
+                <explanation>The 'extends' keyword is used to inherit a class in Java.</explanation>
+            </question>
+            <question>
+                <id>3</id>
+                <text>What does JVM stand for?</text>
+                <type>MCQ</type>
+                <marks>10</marks>
+                <timeLimit>60</timeLimit>
+                <options>
+                    <option id="a" correct="false">Java Very Machine</option>
+                    <option id="b" correct="true">Java Virtual Machine</option>
+                    <option id="c" correct="false">Java Variable Machine</option>
+                    <option id="d" correct="false">Java Visual Machine</option>
+                </options>
+                <explanation>JVM stands for Java Virtual Machine, which executes Java bytecode.</explanation>
+            </question>
+        </questions>
+    </quiz>
+</quizzes>
+

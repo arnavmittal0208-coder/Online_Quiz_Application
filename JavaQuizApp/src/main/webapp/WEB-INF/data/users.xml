@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <username>admin</username>
+        <password>admin123</password>
+        <email>admin@quiz.com</email>
+        <role>ADMIN</role>
+        <fullName>Administrator</fullName>
+        <createdAt>2026-01-01</createdAt>
+    </user>
+    <user>
+        <id>2</id>
+        <username>student1</username>
+        <password>student123</password>
+        <email>student1@quiz.com</email>
+        <role>STUDENT</role>
+        <fullName>John Doe</fullName>
+        <createdAt>2026-01-15</createdAt>
+    </user>
+</users>
+
