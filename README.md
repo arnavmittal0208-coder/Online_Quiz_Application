@@ -94,12 +94,6 @@ Seed data is stored under `JavaQuizApp/src/main/resources/data/`. At runtime, th
 
 The accompanying project report is available here: [Online Quiz Application Project Report](Online_Quiz_Application_Project_Report.pdf).
 
-## Notes
-
-- Do not commit `.env` files, private keys, local server folders, or generated build artifacts.
-- The repository intentionally tracks source code and configuration, not the bundled Tomcat runtime or generated WAR.
-- The application context path is `/JavaQuizApp`.
-
 ## License
 
 No license has been selected for this project yet. Add a license before accepting external contributions or redistributing the code.
